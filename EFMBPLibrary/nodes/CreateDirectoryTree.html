@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/TR/REC-html40">
   <head>
-    <title>Delete File Object</title>
+    <title>Create Directory Tree</title>
     <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
   </head>
   <body>
@@ -9,10 +9,10 @@
       <a class="navbar_style">&gt;</a>
       <a class="navbar_style" href="../EFMBPLibrary.html">EFMBPLibrary</a>
       <a class="navbar_style">&gt;</a>
-      <a class="navbar_style">Delete File Object</a>
-      <h1 class="title_style">Delete File Object</h1>
-      <p>Deletes a given file to a given destination</p>
-      <img src="../img/nd_img_DeleteFileObject.png" />
+      <a class="navbar_style">Create Directory Tree</a>
+      <h1 class="title_style">Create Directory Tree</h1>
+      <p>Creates the entire directory tree in the specified path</p>
+      <img src="../img/nd_img_CreateDirectoryTree.png" />
       <h3 class="title_style">Inputs</h3>
       <table>
         <colgroup>
@@ -31,11 +31,11 @@
           </tr>
           <tr>
             <td>
-              <div class="param_name title_style">File</div>
-              <div class="param_type">EFMFile Object Reference</div>
+              <div class="param_name title_style">New Directory Tree Path</div>
+              <div class="param_type">String</div>
             </td>
             <td>
-              <p>The file to delete</p>
+              <p>The path of the new directory tree</p>
             </td>
           </tr>
         </tbody>
@@ -58,11 +58,11 @@
           </tr>
           <tr>
             <td>
-              <div class="param_name title_style">Success</div>
+              <div class="param_name title_style">Return Value</div>
               <div class="param_type">Boolean</div>
             </td>
             <td>
-              <p>Returns if the operation was successful</p>
+              <p>Returns true if the directory tree has been created</p>
             </td>
           </tr>
         </tbody>
